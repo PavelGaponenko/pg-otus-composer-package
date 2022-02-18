@@ -1,0 +1,16 @@
+{
+    "name": "pavelgaponenko/pg-otus-composer-package",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Pavelgaponenko\\PgOtusComposerPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Павел",
+            "email": "p.gaponenko@worksolutions.ru"
+        }
+    ],
+    "require": {}
+}
