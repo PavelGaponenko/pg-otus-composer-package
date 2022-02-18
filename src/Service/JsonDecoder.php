@@ -7,7 +7,7 @@ class JsonDecoder
     public function toArray(string $json): array
     {
         if ($array = json_decode($json, true)) {
-            return $array;
+            return (array)$array;
         }
 
         return [];
