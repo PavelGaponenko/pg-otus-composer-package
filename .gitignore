@@ -1,2 +1,7 @@
+*.iml
+.idea
+/out/
+/import/
+
 vendor
 composer.lock
